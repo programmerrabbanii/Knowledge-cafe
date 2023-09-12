@@ -5,7 +5,7 @@
     "title": "The Adventure Begins",
     "author": "John Smith",
     "author-img": "https://i.ibb.co/Pr47skz/Ellipse-1-1.png",
-    "posted-date": "2023-09-12",
+    "posted_date": "2023-09-12",
     "reading-time": 30,
     "hashtags": ["adventure", "journey", "exploration"]
   },
@@ -16,7 +16,7 @@
     "title": "Cooking Made Easy",
     "author": "Emily Johnson",
     "author-img": "https://i.ibb.co/zFvGdpp/Ellipse-1-2.png",
-    "posted-date": "2023-09-10",
+    "posted_date": "2023-09-10",
     "reading-time": 45,
     "hashtags": ["cooking", "recipes", "food"]
   },
@@ -27,7 +27,7 @@
     "title": "Tech Trends 2023",
     "author": "Michael Williams",
     "author-img": "https://i.ibb.co/zFvGdpp/Ellipse-1-2.png",
-    "posted-date": "2023-09-08",
+    "posted_date": "2023-09-08",
     "reading-time": 20,
     "hashtags": ["technology", "trends", "innovation"]
   }
