@@ -1,7 +1,7 @@
 
 // import { BsFillBookmarkFill } from 'react-icons/fa';
 
-const Blog = ({blog}) => {
+const Blog = ({blog,handleBook,handlerMarker}) => {
     const {title,cover,author,posted_date,hashtags} = blog;
     const author_img=blog['author-img']
     const reading_time=blog['reading-time']
@@ -23,7 +23,7 @@ const Blog = ({blog}) => {
         </div>
 
         <div>  <span className="mx-4">{reading_time} min read</span> 
-        <button><i class="fa-regular fa-bookmark"></i></button>
+        <button onClick={()=>handleBook(blog)}><i class="fa-regular fa-bookmark"></i></button>
 
         </div>
       </div>
@@ -34,6 +34,8 @@ const Blog = ({blog}) => {
             hashtags.map((has,idx)=> <span key={idx}><a href="">#{has}</a></span>)
         }
       </p>
+
+      <button>mark as read</button>
 
         
       </div>
